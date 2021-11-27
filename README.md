@@ -8,5 +8,5 @@ You can edit the API address and Image Address at  lib/mixins/server.dart and ge
 
 ## Screen Shoot
 
- ![](images/ss2.png)
+ ![](images/ss2.jpeg)
  ![](images/ss1.jpeg)
