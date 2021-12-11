@@ -157,7 +157,6 @@ class DetailNewsScreen extends StatelessWidget {
       textStyle: TextStyle(fontFamily: 'Poppins'),
       webViewJs: true,
       webView: true,
-      unsupportedWebViewWorkaroundForIssue37: false,
     );
   }
 

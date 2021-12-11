@@ -16,7 +16,7 @@ class ApiProvider{
     BaseOptions options =
     BaseOptions(receiveTimeout: 15000, connectTimeout: 15000);
     _dio = Dio(options);
-    _dio.interceptors.add(LoggingInterceptor());
+    // _dio.interceptors.add(LoggingInterceptor());
     _dioCacheManager = DioCacheManager(CacheConfig());
     _cacheOptions = buildCacheOptions(Duration(days: 7), forceRefresh: true);
     _dio.interceptors.add(_dioCacheManager.interceptor);
